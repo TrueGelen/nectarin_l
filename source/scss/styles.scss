@@ -2011,13 +2011,13 @@ body, div, h1, h2, h3, h4, p, input {
 	background-size: contain;
   background-repeat: no-repeat;
 
-  @media screen and (min-width: 1051px) and (max-width: 1094px) and (min-height: 470px) and (max-height: 510px){
-    // width: 80%;
-  }
-
   //1368x768 125%
-	@media screen and (max-width: 1280px) and (max-height: 720px) {
+  @media screen and (min-width: 1051px) and (max-width: 1094px) and (min-height: 470px) and (max-height: 510px){
     background-size: 80%;
+  }
+  
+	@media screen and (max-width: 1280px) and (max-height: 720px) {
+		background-size: 90%;
   }
 
   //1920x1080 125%
