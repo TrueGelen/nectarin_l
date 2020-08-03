@@ -1709,7 +1709,7 @@ body, div, h1, h2, h3, h4, p, input {
 		width: 100%;
 		padding: 20px 0;
 
-		font-family: Rubik-Light, sans-serif;
+		font-family: Rubik-Regular, sans-serif;
     font-size: 18px;
     border-radius: 35px 0px 35px 0px;
 
@@ -2289,7 +2289,7 @@ body, div, h1, h2, h3, h4, p, input {
 	}
 
 	&__subLine{
-		font-family: Rubik-Light, sans-serif;
+		font-family: Rubik-Regular, sans-serif;
 		font-size: 24px;
 
 		@include elg(font-size, 23px);
@@ -2919,8 +2919,19 @@ body, div, h1, h2, h3, h4, p, input {
 
 .slide8{
 
+  &__darkLayer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: .3;
+  }
+
 	&__content{
-		// border: 1px solid red;
+    // border: 1px solid red;
+    position: relative;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -3049,7 +3060,17 @@ body, div, h1, h2, h3, h4, p, input {
 	@include sm-block{
 		display: flex;
 		align-items: center;
-	}
+  }
+  
+  &__darkLayer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: .3;
+  }
 
 	&__content{
 		// border: 1px solid red;
@@ -3441,7 +3462,7 @@ body, div, h1, h2, h3, h4, p, input {
 	}
 
 	&__p3{
-		font-family: Rubik-Light, sans-serif;
+		font-family: Rubik-Regular, sans-serif;
 		font-size: 24.8px;
 		text-shadow: 0px 0px 5px gray;
 		color: #ffb42a;
@@ -3473,7 +3494,7 @@ body, div, h1, h2, h3, h4, p, input {
 		bottom: 0;
 		left: 0;
 		transform: translateY(calc(100% + 10px));
-		font-family: Rubik-Light, sans-serif;
+		font-family: Rubik-Regular, sans-serif;
 		text-transform: uppercase;
 		text-align: center;
 		font-size: 16px;
@@ -3626,7 +3647,7 @@ body, div, h1, h2, h3, h4, p, input {
 		left: 50%;
 		transform: translateX(-50%);
 		bottom: -80px;
-		font-family: Rubik-Light, sans-serif;
+		font-family: Rubik-Regular, sans-serif;
 		text-transform: uppercase;
 		font-size: 10px;
 		color: black;
@@ -3657,7 +3678,7 @@ body, div, h1, h2, h3, h4, p, input {
 	}
 
 	&__text{
-		font-family: Rubik-Light, sans-serif;
+		font-family: Rubik-Regular, sans-serif;
 		font-size: 22px;
 		color: black;
 
